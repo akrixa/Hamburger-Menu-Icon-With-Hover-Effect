@@ -1,0 +1,68 @@
+body {
+	background: -webkit-radial-gradient(#B74DBF, #A26BCD);
+	background: radial-gradient(#B74DBF, #A26BCD);
+}
+
+.wrapper {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 10%;
+    position: relative;
+}
+
+.wrapper:hover .middle {
+    width: 50px;
+    height: 50px;
+    top: 24%;
+    left: 27%;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.3;
+}
+
+.wrapper:hover .top {
+    -webkit-transform:rotate(45deg);
+    top: 40%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.wrapper:hover .bottom {
+    -webkit-transform:rotate(-45deg);
+    top: 40%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.bar {
+    width: 80px;
+    height: 10px;
+    border: 2px solid white;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.top {
+    left: 15%;
+    top: 20%;
+    -webkit-transition: all 0.5s;
+}
+
+.middle {
+    left: 15%;
+    top: 40%;
+    -webkit-transition: all 0.5s;
+}
+
+.bottom {
+    left: 15%;
+    top: 60%;
+    -webkit-transition: all 0.5s;
+}
+
+h2 {
+    font-family: 'helvetica neue';
+    color: white;
+    text-align: center;
+}
